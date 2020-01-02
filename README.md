@@ -3,7 +3,7 @@
     2. Run `pip install -r requirements.txt` to install any potentially missing packages
     3. Go to the Meraki Dashboard and generate an API key for yourself
     4. Paste this value into the provided credentials.json file (if desired)
-    5. Run script. The script will message your designated room with check your network for new devices every 5 minutes and message the desginated chat channel if it detects a new device. For instructions on running the script, read below
+    5. Run script. For instructions on running the script, read below
 
 # Instructions
 The script obtains its credentials in two ways: 
