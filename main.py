@@ -1,5 +1,5 @@
 from classes import Api, Meraki
-import json, time, argparse
+import json, time, argparse, pprint
 
 
 def main():
@@ -57,9 +57,9 @@ def main():
                                     print('got one')
                                 clients[event["clientId"]]["events"].append(event)
     if args.reportMode == 'devices':
-        print(devices)
+        pprint.pprint(devices)
     elif args.reportMode == 'clients':
-        print(clients)
+        pprint.pprint(clients)
 
     
 if __name__ == '__main__':
