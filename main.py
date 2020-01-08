@@ -23,7 +23,7 @@ def main():
         apiKey = args.apiKey
 
     if apiKey == None:
-        print('Please include a Cisco Meraki Dashboard API Key!')
+        print('Please include a Cisco Meraki Dashboard API Key! To obtain one, please visit https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API')
         exit()
 
 
