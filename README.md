@@ -17,3 +17,4 @@ To run the script, enter `python[3] main.py [arguments]` and the script will beg
 
 # Description
 The script will output a dict that can list either the devices that have connected to your devices or the devices themselves. Default output mode is the clients, which can be used for tracking an individual device as it moves around 
+
